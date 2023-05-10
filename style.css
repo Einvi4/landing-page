@@ -154,3 +154,15 @@ body {
 .act-text {
     color: white;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+.footer div {
+    color: white;
+}
