@@ -79,7 +79,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 500px;
+    padding: 100px 500px;
     gap: 50px;
 }
 
@@ -104,4 +104,53 @@ body {
 
 .card div{
     text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 16px 500px;
+}
+
+.author {
+    align-self: flex-end;
+    margin: 0px 600px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.action-container {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    background-color: #388EF6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    gap: 150px;
+}
+
+.btn-white {
+    border-color: white;
+}
+
+.act-header {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.act-text {
+    color: white;
 }
