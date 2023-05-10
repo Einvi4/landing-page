@@ -11,7 +11,7 @@ body {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 400px;
 }
 
 .logo {
@@ -29,4 +29,48 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+
+.hero-container {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 400px;
+    gap: 20px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    background-color: rgb(102, 102, 102);
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    padding: 8px 30px;
+    border-radius: 8px;
+    background-color: #388EF6;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #388EF6;
+}
+
+.imagen {
+    color: #E5E7EB;
 }
